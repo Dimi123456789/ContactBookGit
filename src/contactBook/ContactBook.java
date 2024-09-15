@@ -24,7 +24,6 @@ public class ContactBook {
     public String getName(int phone){
         return contacts[searchPhoneIndex(phone)].getName();
     }
-
     public int getNumberOfContacts() {
         return counter;
     }
