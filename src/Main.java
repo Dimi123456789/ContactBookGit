@@ -153,7 +153,6 @@ public class Main {
         }
         else System.out.println(BOOK_EMPTY);
     }
-
     private static void getName(Scanner in, ContactBook cBook) {
         int phone;
         phone = in.nextInt(); in.nextLine();
